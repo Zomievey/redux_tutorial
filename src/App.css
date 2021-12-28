@@ -1,8 +1,16 @@
+#root{
+  height: 100vh;
+}
+html, body{
+  margin: 0;
+}
 .App {
   text-align: center;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: stretch;display: flex;
 }
 
 .dark-mode {
   background-color: #333;
-  color: #fff;
 }
